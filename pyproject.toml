@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "infinitree"
+version = "0.0.0"
+description = ""
+authors = ["Jonathan Camp <github@jonathan.camp>"]
+
+[tool.poetry.dependencies]
+python = "~3.8"
+adafruit-circuitpython-busdevice = "^5.1.1"
+adafruit-circuitpython-neopixel = "^6.2.3"
+adafruit-circuitpython-datetime = "^1.1.5"
+circuitpython-stubs = "=7.1.0b1"
+# asynccp = { git = "https://github.com/WarriorOfWire/CircuitPython_async", branch = "main" }
+
+[tool.poetry.dev-dependencies]
+black = "^21.11b1"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
